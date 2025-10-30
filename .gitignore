@@ -1,0 +1,63 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de entorno y dependencias
+.env
+.venv/
+venv/
+env/
+*.env
+*.ini
+
+# === IDEs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Sistema ===
+.DS_Store
+Thumbs.db
+
+# === Archivos temporales ===
+*.log
+*.tmp
+*.bak
+*.old
+
+# === Compilaciones o empaquetados ===
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# === Datos del usuario / pruebas ===
+*.csv
+*.json
+*.txt
+*.db
+*.sqlite
+data/
+output/
+results/
+uploads/
+images/
+screenshots/
+tmp/
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# === Flask / Django (si se usa más adelante) ===
+instance/
+*.sqlite3
+*.db-journal
+
+# === Proyectos gráficos o de día específicos ===
+__sandbox__/
+scratch/
+testing/
